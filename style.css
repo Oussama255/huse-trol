@@ -42,7 +42,7 @@ nav a:hover{
 .hero{
   height:100vh;
   background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
-  url('/5803317488207465635.jpg') center/cover;
+  url('5803317488207465635.jpg') center/cover;
   display:flex;
   align-items:center;
   justify-content:center;
