@@ -188,3 +188,51 @@ footer{
   color:#888;
   border-top:1px solid #d4af37;
 }
+/* 📱 تصميم الهاتف */
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero {
+    padding: 40px 15px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .team {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  button, .btn {
+    width: 100%;
+    font-size: 18px;
+  }
+
+}
